@@ -11,6 +11,7 @@
 		EE399B262ADA5576000E15D2 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE399B252ADA5576000E15D2 /* UpcomingViewController.swift */; };
 		EE399B282ADA55DE000E15D2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE399B272ADA55DE000E15D2 /* SearchViewController.swift */; };
 		EE399B2A2ADA5621000E15D2 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE399B292ADA5621000E15D2 /* DownloadsViewController.swift */; };
+		EE898D502ADA7217004C64C1 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE898D4F2ADA7217004C64C1 /* CollectionViewTableViewCell.swift */; };
 		EEF5CDE12ADA4620000B3343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF5CDE02ADA4620000B3343 /* AppDelegate.swift */; };
 		EEF5CDE32ADA4620000B3343 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF5CDE22ADA4620000B3343 /* SceneDelegate.swift */; };
 		EEF5CDE52ADA4620000B3343 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF5CDE42ADA4620000B3343 /* MainTabBarViewController.swift */; };
@@ -23,6 +24,7 @@
 		EE399B252ADA5576000E15D2 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		EE399B272ADA55DE000E15D2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		EE399B292ADA5621000E15D2 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		EE898D4F2ADA7217004C64C1 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		EEF5CDDD2ADA4620000B3343 /* Netflix-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF5CDE02ADA4620000B3343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEF5CDE22ADA4620000B3343 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +56,42 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		EE898D4A2ADA70B7004C64C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE898D4F2ADA7217004C64C1 /* CollectionViewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE898D4B2ADA70DA004C64C1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EE898D4C2ADA70FD004C64C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE898D4D2ADA7165004C64C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EE898D4E2ADA7196004C64C1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		EEF5CDD42ADA4620000B3343 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +111,11 @@
 		EEF5CDDF2ADA4620000B3343 /* Netflix-Clone */ = {
 			isa = PBXGroup;
 			children = (
+				EE898D4E2ADA7196004C64C1 /* Managers */,
+				EE898D4D2ADA7165004C64C1 /* Resources */,
+				EE898D4C2ADA70FD004C64C1 /* Models */,
+				EE898D4A2ADA70B7004C64C1 /* Views */,
+				EE898D4B2ADA70DA004C64C1 /* ViewModels */,
 				EE399B222ADA54EB000E15D2 /* Controllers */,
 				EEF5CDE02ADA4620000B3343 /* AppDelegate.swift */,
 				EEF5CDE22ADA4620000B3343 /* SceneDelegate.swift */,
@@ -156,6 +199,7 @@
 			files = (
 				EE399B282ADA55DE000E15D2 /* SearchViewController.swift in Sources */,
 				EEF5CDE52ADA4620000B3343 /* MainTabBarViewController.swift in Sources */,
+				EE898D502ADA7217004C64C1 /* CollectionViewTableViewCell.swift in Sources */,
 				EE399B2A2ADA5621000E15D2 /* DownloadsViewController.swift in Sources */,
 				EEF5CDE12ADA4620000B3343 /* AppDelegate.swift in Sources */,
 				EEF5CDE32ADA4620000B3343 /* SceneDelegate.swift in Sources */,
