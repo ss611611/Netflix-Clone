@@ -12,6 +12,7 @@
 		EE399B282ADA55DE000E15D2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE399B272ADA55DE000E15D2 /* SearchViewController.swift */; };
 		EE399B2A2ADA5621000E15D2 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE399B292ADA5621000E15D2 /* DownloadsViewController.swift */; };
 		EE898D502ADA7217004C64C1 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE898D4F2ADA7217004C64C1 /* CollectionViewTableViewCell.swift */; };
+		EEC025FB2AE4F943005A49C9 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC025FA2AE4F943005A49C9 /* HeroHeaderUIView.swift */; };
 		EEF5CDE12ADA4620000B3343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF5CDE02ADA4620000B3343 /* AppDelegate.swift */; };
 		EEF5CDE32ADA4620000B3343 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF5CDE22ADA4620000B3343 /* SceneDelegate.swift */; };
 		EEF5CDE52ADA4620000B3343 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF5CDE42ADA4620000B3343 /* MainTabBarViewController.swift */; };
@@ -25,6 +26,7 @@
 		EE399B272ADA55DE000E15D2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		EE399B292ADA5621000E15D2 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		EE898D4F2ADA7217004C64C1 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		EEC025FA2AE4F943005A49C9 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		EEF5CDDD2ADA4620000B3343 /* Netflix-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF5CDE02ADA4620000B3343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEF5CDE22ADA4620000B3343 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				EE898D4F2ADA7217004C64C1 /* CollectionViewTableViewCell.swift */,
+				EEC025FA2AE4F943005A49C9 /* HeroHeaderUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				EE399B282ADA55DE000E15D2 /* SearchViewController.swift in Sources */,
 				EEF5CDE52ADA4620000B3343 /* MainTabBarViewController.swift in Sources */,
 				EE898D502ADA7217004C64C1 /* CollectionViewTableViewCell.swift in Sources */,
+				EEC025FB2AE4F943005A49C9 /* HeroHeaderUIView.swift in Sources */,
 				EE399B2A2ADA5621000E15D2 /* DownloadsViewController.swift in Sources */,
 				EEF5CDE12ADA4620000B3343 /* AppDelegate.swift in Sources */,
 				EEF5CDE32ADA4620000B3343 /* SceneDelegate.swift in Sources */,
