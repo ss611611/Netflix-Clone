@@ -18,6 +18,7 @@
 		EEA59D842AECD335008F6B97 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA59D832AECD335008F6B97 /* TitleCollectionViewCell.swift */; };
 		EEA59D872AECD652008F6B97 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = EEA59D862AECD652008F6B97 /* SDWebImage */; };
 		EEA59D892AECD652008F6B97 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EEA59D882AECD652008F6B97 /* SDWebImageMapKit */; };
+		EEA59D8B2AECF6E9008F6B97 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA59D8A2AECF6E9008F6B97 /* TitleTableViewCell.swift */; };
 		EEC025FB2AE4F943005A49C9 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC025FA2AE4F943005A49C9 /* HeroHeaderUIView.swift */; };
 		EEF5CDE12ADA4620000B3343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF5CDE02ADA4620000B3343 /* AppDelegate.swift */; };
 		EEF5CDE32ADA4620000B3343 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF5CDE22ADA4620000B3343 /* SceneDelegate.swift */; };
@@ -36,6 +37,7 @@
 		EEA59D7D2AECB80D008F6B97 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		EEA59D7F2AECBEAB008F6B97 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EEA59D832AECD335008F6B97 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		EEA59D8A2AECF6E9008F6B97 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		EEC025FA2AE4F943005A49C9 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		EEF5CDDD2ADA4620000B3343 /* Netflix-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF5CDE02ADA4620000B3343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				EE898D4F2ADA7217004C64C1 /* CollectionViewTableViewCell.swift */,
 				EEC025FA2AE4F943005A49C9 /* HeroHeaderUIView.swift */,
 				EEA59D832AECD335008F6B97 /* TitleCollectionViewCell.swift */,
+				EEA59D8A2AECF6E9008F6B97 /* TitleTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA59D8B2AECF6E9008F6B97 /* TitleTableViewCell.swift in Sources */,
 				EE399B282ADA55DE000E15D2 /* SearchViewController.swift in Sources */,
 				EEA59D842AECD335008F6B97 /* TitleCollectionViewCell.swift in Sources */,
 				EEF5CDE52ADA4620000B3343 /* MainTabBarViewController.swift in Sources */,
