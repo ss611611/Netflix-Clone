@@ -93,7 +93,7 @@ class TitlePreviewViewController: UIViewController {
     }
 
     
-    func configure(wuth model: TitlePreviewViewModel) {
+    func configure(with model: TitlePreviewViewModel) {
         titleLabel.text = model.title
         overviewLabel.text = model.titleOverview
         
