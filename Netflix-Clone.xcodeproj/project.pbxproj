@@ -20,6 +20,7 @@
 		EEA59D892AECD652008F6B97 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EEA59D882AECD652008F6B97 /* SDWebImageMapKit */; };
 		EEA59D8B2AECF6E9008F6B97 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA59D8A2AECF6E9008F6B97 /* TitleTableViewCell.swift */; };
 		EEAB4C012AF5C83800693023 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAB4C002AF5C83800693023 /* TitleViewModel.swift */; };
+		EEAB4C032AF5DFFF00693023 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAB4C022AF5DFFF00693023 /* SearchResultsViewController.swift */; };
 		EEC025FB2AE4F943005A49C9 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC025FA2AE4F943005A49C9 /* HeroHeaderUIView.swift */; };
 		EEF5CDE12ADA4620000B3343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF5CDE02ADA4620000B3343 /* AppDelegate.swift */; };
 		EEF5CDE32ADA4620000B3343 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF5CDE22ADA4620000B3343 /* SceneDelegate.swift */; };
@@ -40,6 +41,7 @@
 		EEA59D832AECD335008F6B97 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 		EEA59D8A2AECF6E9008F6B97 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		EEAB4C002AF5C83800693023 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
+		EEAB4C022AF5DFFF00693023 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		EEC025FA2AE4F943005A49C9 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		EEF5CDDD2ADA4620000B3343 /* Netflix-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF5CDE02ADA4620000B3343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,10 +68,8 @@
 		EE399B222ADA54EB000E15D2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				EE399B232ADA5525000E15D2 /* HomeViewController.swift */,
-				EE399B252ADA5576000E15D2 /* UpcomingViewController.swift */,
-				EE399B272ADA55DE000E15D2 /* SearchViewController.swift */,
-				EE399B292ADA5621000E15D2 /* DownloadsViewController.swift */,
+				EEAB4C052AF5E09000693023 /* General */,
+				EEAB4C042AF5E05500693023 /* Core */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -115,6 +115,25 @@
 				EEA59D7B2AECAE44008F6B97 /* APICaller.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		EEAB4C042AF5E05500693023 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EE399B232ADA5525000E15D2 /* HomeViewController.swift */,
+				EE399B252ADA5576000E15D2 /* UpcomingViewController.swift */,
+				EE399B272ADA55DE000E15D2 /* SearchViewController.swift */,
+				EE399B292ADA5621000E15D2 /* DownloadsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EEAB4C052AF5E09000693023 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				EEAB4C022AF5DFFF00693023 /* SearchResultsViewController.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 		EEF5CDD42ADA4620000B3343 = {
@@ -238,6 +257,7 @@
 				EEC025FB2AE4F943005A49C9 /* HeroHeaderUIView.swift in Sources */,
 				EE399B2A2ADA5621000E15D2 /* DownloadsViewController.swift in Sources */,
 				EEF5CDE12ADA4620000B3343 /* AppDelegate.swift in Sources */,
+				EEAB4C032AF5DFFF00693023 /* SearchResultsViewController.swift in Sources */,
 				EEA59D802AECBEAB008F6B97 /* Extensions.swift in Sources */,
 				EEF5CDE32ADA4620000B3343 /* SceneDelegate.swift in Sources */,
 				EE399B262ADA5576000E15D2 /* UpcomingViewController.swift in Sources */,
